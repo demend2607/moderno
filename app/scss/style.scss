@@ -183,11 +183,24 @@
 }
 
 .user__box,
-.basket__box {
+.basket__box,
+.message__box,
+.notification__box {
     position: relative;
     height: 80px;
     margin-top: 30px;
     &:hover {
+        .header__circle::before {
+            color: $bg;
+        }
+        .circle__menu {
+            overflow: hidden;
+            height: auto;
+        }
+        .circle__item {
+            padding: 23px 23px;
+            border-width: 1px;
+        }
         .user__menu {
             height: auto;
             border-width: 1px;
@@ -201,14 +214,14 @@
     margin-top: 44px;
     margin-left: 15px;
     &:hover {
-        .basket__menu {
+        .circle__menu {
             height: auto;
             overflow: auto;
         }
     }
 }
 
-.basket__menu {
+.circle__menu {
     position: absolute;
     border-top: 1px solid #e0e0e0;
     top: 62px;
@@ -218,21 +231,33 @@
     transition: all .3s;
 }
 
-.basket__item {
+.circle__item {
     background-color: #fff;
-    padding: 22px;
-    border: 1px solid #e0e0e0;
+    padding: 0 23px;
+    border: 0px solid #e0e0e0;
+    border-left-width: 1px;
+    border-right-width: 1px;
     border-top: none;
+    transition: all .3s;
     display: flex;
     align-items: center;
     width: 270px;
+    position: relative;
+    &::before {
+        position: absolute;
+        right: 25px;
+        top: 34px;
+        font-size: 18px;
+        color: #b0bec5;
+        font-size: 16px;
+    }
 }
 
-.basket__img {
+.circle__img {
     margin-right: 15px;
 }
 
-.basket__info {
+.circle__info {
     line-height: 21px;
     &-name {
         @include f500;
@@ -279,6 +304,32 @@
         margin-left: 6px;
         background-color: $red;
     }
+}
+
+.notification__menu,
+.message__menu {
+    .circle__img {
+        margin-right: 20px;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+    }
+}
+
+.notification__box,
+.message__box {
+    margin-top: 44px;
+    margin-left: 15px;
+    &:hover {
+        .circle__menu {
+            height: auto;
+            overflow: auto;
+        }
+    }
+}
+
+.icons__color::before {
+    color: $tomato;
 }
 
 // ------------------------------------------------------------End Header------------------------------------------------------------

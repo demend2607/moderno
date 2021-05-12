@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-env": "^7.13.12",
+    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.26.14",
     "browserslist": "^4.16.3",
     "cssmin": "^0.4.3",
@@ -21,6 +22,7 @@
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2",
     "gulp-update-modul": "^1.5.5",
+    "ion-rangeslider": "^2.3.1",
     "minimatch": "^3.0.4",
     "mixitup": "^3.3.1",
     "normalize.css": "^8.0.1",

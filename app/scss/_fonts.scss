@@ -7,8 +7,8 @@
 
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?q8s15z');
-    src: url('../fonts/icomoon.eot?q8s15z#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?q8s15z') format('truetype'), url('../fonts/icomoon.woff?q8s15z') format('woff'), url('../fonts/icomoon.svg?q8s15z#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?1tbdqr');
+    src: url('../fonts/icomoon.eot?1tbdqr#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?1tbdqr') format('truetype'), url('../fonts/icomoon.woff?1tbdqr') format('woff'), url('../fonts/icomoon.svg?1tbdqr#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -27,6 +27,10 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-asterisk:before {
+    content: "\f069";
 }
 
 .icon-search:before {
@@ -89,24 +93,12 @@
     content: "\f095";
 }
 
-.icon-twitter:before {
-    content: "\f099";
-}
-
-.icon-facebook:before {
-    content: "\f09a";
-}
-
-.icon-facebook-f:before {
-    content: "\f09a";
+.icon-github:before {
+    content: "\f09b";
 }
 
 .icon-bell-o:before {
     content: "\f0a2";
-}
-
-.icon-briefcase:before {
-    content: "\f0b1";
 }
 
 .icon-group:before {
@@ -117,20 +109,12 @@
     content: "\f0c0";
 }
 
-.icon-caret-down:before {
-    content: "\f0d7";
-}
-
 .icon-sort:before {
     content: "\f0dc";
 }
 
 .icon-unsorted:before {
     content: "\f0dc";
-}
-
-.icon-linkedin:before {
-    content: "\f0e1";
 }
 
 .icon-comment-o:before {
@@ -149,6 +133,10 @@
     content: "\f0e7";
 }
 
+.icon-suitcase:before {
+    content: "\f0f2";
+}
+
 .icon-angle-right:before {
     content: "\f105";
 }
@@ -165,42 +153,26 @@
     content: "\f112";
 }
 
-.icon-meh-o:before {
-    content: "\f11a";
-}
-
 .icon-location-arrow:before {
     content: "\f124";
 }
 
-.icon-cny:before {
-    content: "\f157";
+.icon-dollar:before {
+    content: "\f155";
 }
 
-.icon-jpy:before {
-    content: "\f157";
-}
-
-.icon-rmb:before {
-    content: "\f157";
-}
-
-.icon-yen:before {
-    content: "\f157";
+.icon-usd:before {
+    content: "\f155";
 }
 
 .icon-sort-amount-desc:before {
     content: "\f161";
 }
 
-.icon-foursquare:before {
-    content: "\f180";
+.icon-paper-plane-o:before {
+    content: "\f1d9";
 }
 
-.icon-pagelines:before {
-    content: "\f18c";
-}
-
-.icon-pinterest-p:before {
-    content: "\f231";
+.icon-send-o:before {
+    content: "\f1d9";
 }
